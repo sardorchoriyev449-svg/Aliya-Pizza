@@ -1,0 +1,19 @@
+.auth-page{ display:flex; align-items:center; justify-content:center; flex:1; padding:60px 20px; }
+.auth-card{ width:100%; max-width:400px; padding:36px 32px; }
+.auth-title{ font-size:30px; margin-bottom:6px; }
+.auth-sub{ color:var(--flour-200); opacity:.7; font-size:14px; margin:0 0 26px; }
+.auth-foot{ margin-top:18px; font-size:14px; color:var(--flour-200); opacity:.8; text-align:center; }
+.auth-foot a{ color:var(--tomato-600); font-weight:700; }
+.phone-input-wrap{ display:flex; align-items:stretch; }
+.phone-prefix{
+  display:flex; align-items:center; padding:0 12px; background:var(--char-800);
+  border:1.5px solid var(--char-600); border-right:none; border-radius:var(--radius-sm) 0 0 var(--radius-sm);
+  color:var(--flour-200); font-family:var(--font-mono); font-size:14px;
+}
+.phone-input-wrap input{ border-radius:0 var(--radius-sm) var(--radius-sm) 0; }
+
+.profile-row{
+  display:flex; align-items:center; gap:12px; padding:12px 14px;
+  background:var(--char-800); border:1px solid var(--char-600); border-radius:var(--radius-sm);
+  margin-bottom:10px; color:var(--flour-100); font-weight:600;
+}

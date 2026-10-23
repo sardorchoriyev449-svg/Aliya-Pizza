@@ -1,0 +1,1 @@
+export const getCookieKey = (): string => process.env.COOKIE_SECRET as string;
